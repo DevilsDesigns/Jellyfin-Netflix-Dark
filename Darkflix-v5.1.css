@@ -1,3 +1,101 @@
+
+
+
+/*Fonts */
+@font-face {
+  font-family: "Netflix Sans";
+  font-weight: 100;
+  font-display: optional;
+  src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff2)
+      format("woff2"),
+    url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff)
+      format("woff");
+}
+@font-face {
+  font-family: "Netflix Sans";
+  font-weight: 300;
+  font-display: optional;
+  src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Lt.woff2)
+      format("woff2"),
+    url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Lt.woff)
+      format("woff");
+}
+@font-face {
+  font-family: "Netflix Sans";
+  font-weight: 400;
+  font-display: optional;
+  src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2)
+      format("woff2"),
+    url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff)
+      format("woff");
+}
+@font-face {
+  font-family: "Netflix Sans";
+  font-weight: 700;
+  font-display: optional;
+  src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff2)
+      format("woff2"),
+    url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff)
+      format("woff");
+}
+@font-face {
+  font-family: "Netflix Sans";
+  font-weight: 800;
+  font-display: optional;
+  src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Bd.woff2)
+      format("woff2"),
+    url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Bd.woff)
+      format("woff");
+}
+@font-face {
+  font-family: "Netflix Sans";
+  font-weight: 900;
+  font-display: optional;
+  src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Blk.woff2)
+      format("woff2"),
+    url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Blk.woff)
+      format("woff");
+}
+body,
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Netflix Sans", sans-serif !important;
+}
+
+/*Subtitle Fonts (Netflix Sans Medium) thanks the u/Edgementality-https://bit.ly/33slrSa*/
+
+/*Firefox*/
+
+.videoSubtitles {
+  font-family: "Netflix Sans", sans-serif !important;
+  font-weight: 700 !important;
+  text-shadow: 0px 0px 8px rgba(0, 0, 0, 1) !important;
+}
+
+/*Chrome, Edge Chromium & Saffari*/
+
+video::-webkit-media-text-track-display {
+  font-family: "Netflix Sans", sans-serif !important;
+  font-weight: 700 !important;
+  text-shadow: rgba(0, 0, 0, 1) 0em 0em 0.2em !important;
+}
+
+/*backup for subtitles*/
+
+video::-webkit-media-text-track-container {
+  font-family: "Netflix Sans", sans-serif !important;
+  font-weight: 700 !important;
+  text-shadow: rgba(0, 0, 0, 1) 0em 0em 0.2em !important;
+}
+
+video:cue {
+  font-family: "Netflix Sans", sans-serif !important;
+  font-weight: 700 !important;
+  text-shadow: rgba(0, 0, 0, 1) 0em 0em 0.2em !important;
+}
+
 /*more homepage category banners"/
 
 
@@ -2837,20 +2935,9 @@ button::-moz-focus-inner {
 }
 
 body {
-    font-size: 80%;
+    font-size: 95% !important;
 }
 
-/*Custom Font*/
-@import url('https://fonts.googleapis.com/css2?family=Doppio+One&display=swap');
-body {
-    font-family: 'Doppio One', sans-serif;
-}
-h1, h2, h3 {
-   font-family: 'Doppio One', sans-serif; text-transform: uppercase;
-}
-h2, h3 {
-   letter-spacing: .3px;
-}
 
 /*More homepage banner category end*/
 
@@ -5774,21 +5861,6 @@ button::-moz-focus-inner {
     filter: brightness(50%);
 }
 
-body {
-    font-size: 80%;
-}
-
-/*Custom Font*/
-@import url('https://fonts.googleapis.com/css2?family=Doppio+One&display=swap');
-body {
-    font-family: 'Doppio One', sans-serif;
-}
-h1, h2, h3 {
-   font-family: 'Doppio One', sans-serif; text-transform: uppercase;
-}
-h2, h3 {
-   letter-spacing: .3px;
-}
 
 /*More homepage banner category end*/
 
@@ -5854,7 +5926,6 @@ h2, h3 {
 .backgroundContainer.withBackdrop {background-color: rgba(0,0,0,0.86);}
 h1 {font-size: 1.8em;}
 :root{--btn-rounding: 0px; --rounding: 0px;} .missingIndicator, .unairedIndicator {border-radius: var(--rounding);}.formDialogHeader {border-top-left-radius: var(--rounding);border-top-right-radius: var(--rounding);}.formDialogFooter {border-bottom-left-radius: var(--rounding);border-bottom-right-radius: var(--rounding);}.cardOverlayContainer {border-radius: var(--rounding) !important;}.primaryImageWrapper>img, .toast, .paperList, .cardContent, .sessionNowPlayingInnerContent, .listItem:hover, .cardImage, .fab, .raised, .multiSelectCheckboxOutline, .itemSelectionPanel, .cardContent-button, .cardContent-shadow, .itemDetailImage, .cardOverlayButton-hover, .cardImageContainer, .cardPadder, .listItemImage, .listItemImageButton, .listItemButton, .headerButton, .paper-icon-button-light, .innerCardFooter, .blurhash-canvas, .dialog, .playedIndicator, .listItemIcon, .listItem-border, .button-flat, .visualCardBox, .checkboxOutline, .emby-select-withcolor, .chapterThumbTextContainer, .chapterThumbContainer, .chapterThumb, .emby-input, .emby-textarea, .emby-select-withcolor, .nowPlayingPageImage, .upNextDialog-poster-img, .upNextContainer, .cardOverlayButtonIcon {border-radius: var(--rounding) !important;}.osdPoster img {border-radius: var(--rounding);border: none;}.mdl-slider::-moz-range-thumb {border-radius: var(--rounding);}.mdl-slider::-ms-thumb {border-radius: var(--rounding);}.mdl-slider::-webkit-slider-thumb {border-radius: var(--rounding);}div[data-role='controlgroup'] a[data-role='button']:first-child {border-bottom-left-radius: var(--rounding);border-top-left-radius: var(--rounding);}div[data-role='controlgroup'] a[data-role='button']:last-child {border-bottom-right-radius: var(--rounding);border-top-right-radius: var(--rounding);}#dashboardPage .cardContent, #dashboardPage .sessionNowPlayingInnerContent {border-radius: var(--rounding) var(--rounding) 0 0 !important;}#divVirtualFolders .cardImageContainer, #divVirtualFolders .cardContent {border-radius: var(--rounding) var(--rounding) 0 0 !important;}#userProfilesPage .cardImage, #userProfilesPage .cardContent {border-radius: var(--rounding) var(--rounding) 0 0 !important;}#user_usage_report_table, .detailTable {border-radius: var(--rounding);}progress {border-radius: var(--rounding);}progress::-webkit-progress-bar {border-radius: var(--rounding);}progress::-moz-progress-bar {border-radius: var(--rounding);}progress::-webkit-progress-value {border-radius: var(--rounding);}.taskProgressOuter, .taskProgressInner {border-radius: var(--rounding) !important;}::-webkit-scrollbar-thumb {border-radius: var(--rounding);} .paper-icon-button-light{border-radius: var(--btn-rounding) !impotant;} {--bgblur: blur(0px)}.backdropImage {filter: var(--bgblur);}
-html {font-family:  'Doppio One',sans-serif ;  } body,h1,h2,h3 { font-family: 'Doppio One' ,sans-serif !important;}
 .countIndicator {
     background: #d90000 !important;
 }
