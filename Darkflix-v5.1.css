@@ -57,12 +57,12 @@
       format("woff");
 }
 body,
+    font-size: 95% !important;
 h1,
 h2,
 h3,
 h4 {
   font-family: "Netflix Sans", sans-serif !important;
-  font-size: 95% !important;
 }
 
 /*Subtitle Fonts (Netflix Sans Medium) thanks the u/Edgementality-https://bit.ly/33slrSa*/
