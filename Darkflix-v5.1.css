@@ -62,6 +62,7 @@ h2,
 h3,
 h4 {
   font-family: "Netflix Sans", sans-serif !important;
+  font-size: 95% !important;
 }
 
 /*Subtitle Fonts (Netflix Sans Medium) thanks the u/Edgementality-https://bit.ly/33slrSa*/
@@ -2932,10 +2933,6 @@ button::-moz-focus-inner {
 .backgroundContainer {
     background-color: #000000;
     filter: brightness(50%);
-}
-
-body {
-    font-size: 95% !important;
 }
 
 
