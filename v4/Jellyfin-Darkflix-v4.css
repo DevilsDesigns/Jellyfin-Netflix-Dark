@@ -1,5 +1,13 @@
 /*Fonts */
-
+:root {
+    --rounding: 10px;
+    --card-rounding: 10px 10px 0px 0px;
+    --accent: #D90000 !important;
+    --accent-selected: #D90000 !important;
+    --accent-text: #D90000 !important;
+    --accent-icon: #D90000 !important;
+    --swiper-theme-color: #d90000 !important;
+}
 @import url("@import url(https://cdn.jsdelivr.net/gh/prayag17/Jellyfin-Icons/Outline.css");
 html {font-family:  'K2D',sans-serif ;  } body,h1,h2,h3 { font-family: 'K2D' ,sans-serif;}
 
@@ -156,15 +164,7 @@ video:cue {
     border-radius: 100em;
     margin: 0 .2em 0 .4em;
 }
-:root {
-    --rounding: 10px;
-    --card-rounding: 10px 10px 0px 0px;
-    --accent: #D90000 !important;
-    --accent-selected: #D90000 !important;
-    --accent-text: #D90000 !important;
-    --accent-icon: #D90000 !important;
-    --swiper-theme-color: #d90000 !important;
-}
+
 .emby-checkbox:checked + span + .checkboxOutline, .itemProgressBarForeground {
     background-color: #d90000 !important;
 }
@@ -609,6 +609,10 @@ span.material-icons.detailButton-icon.favorite.ratingbutton-icon-withrating {
 	border-color: rgba(0, 0, 0, 0) !important;
 	background: #d90000 !important;
 	color: #fff !important;
+}
+
+.raised {
+	background: black;
 }
 .css-17c09up.Mui-selected {
 	background-color: #d90000 !important;
@@ -1539,10 +1543,20 @@ html:not(.layout-mobile) #loginPage .inputLabel:not(.inputLabel-float) {
 
 
 /*Theming for the dashboard*/
+.emby-select-withcolor {
+	border: .07em solid #d90000 !important;
+}
 
-.paperList,
-.visualCardBox {
-    background-color: #000;
+.emby-select-withcolor:focus {
+	border-color: #d90000 !important;
+}
+.button-link:hover {
+	-webkit-text-decoration: underline;
+	text-decoration: underline;
+	color: #d90000 !important;
+}
+.checkboxOutline {
+	border-color: #d90000 !important;
 }
 
 .listItemIcon {
