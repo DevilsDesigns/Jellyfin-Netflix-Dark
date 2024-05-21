@@ -7,6 +7,56 @@ html {font-family:  'K2D',sans-serif ;  } body,h1,h2,h3 { font-family: 'K2D' ,sa
     scrollbar-width: thin;
     scrollbar-color: #d90000 #202020 !important;
 }
+/*Spinner*/
+.mdl-spinner__layer-1 {
+    border-color: #d90000 !important;
+}
+.mdl-spinner__layer-2 {
+	border-color: #d90000 !important;
+}
+.mdl-spinner__layer-3 {
+	border-color: #d90000 !important;
+}
+.mdl-spinner__layer-4 {
+	border-color: #d90000 !important;
+}
+#indexPage .raised::before {
+	background: #d90000 !important;
+}
+.button-flat:hover {
+	color: #d90000 !important;
+}
+  /*VideoPlayerUI*/
+  
+  .mdl-slider::-webkit-slider-thumb {
+    background: #d90000;
+    }
+    .layout-mobile #itemDetailPage .btnPlay,.layout-mobile #itemDetailPage .btnResume {
+    background: #d90000 !important;
+    flex-flow:row;
+    flex-shrink:0;
+    font-size:150%;
+    grid-gap:5%!important;
+    justify-content:flex-start;
+    padding:10px!important;
+    text-shadow:none;
+    width:100%!important
+    }
+    .mdl-slider-background-lower {
+    background-color: #d90000 !important
+    }
+    .mdl-slider::-moz-range-thumb {
+        -moz-appearance: none;
+        background: #d90000 !important;
+        background-image: none;
+        border: none;
+        border-radius: 50%;
+        box-sizing: border-box;
+        height: 1.08em;
+        -moz-transition: .2s;
+        transition: .2s;
+        width: 1.08em;
+    }
 
 /*Mini My media*/
 
@@ -469,7 +519,7 @@ span.listItemIcon.material-icons {
     background: var(--accent-icon);
     -webkit-background-clip: text;
     background-clip: text;
-    color: transparent;
+    color: #fff !important;
 }
 
 .defaultCardBackground {
@@ -518,7 +568,7 @@ span.material-icons.detailButton-icon.favorite.ratingbutton-icon-withrating {
 }
 
 #indexPage .raised::before {
-    background: transparent;
+    background: #d90000 !important;
 }
 
 
@@ -552,12 +602,21 @@ span.material-icons.detailButton-icon.favorite.ratingbutton-icon-withrating {
 
 
 /*fancy link end*/
-
-.listItem.listItem-border:hover {
-    border-color: rgba(0, 0, 0, 0) !important;
-    background: #3f3f3f;
+.listItem:hover {
+	background: #d90000 !important;
 }
-
+.listItem.listItem-border:hover {
+	border-color: rgba(0, 0, 0, 0) !important;
+	background: #d90000 !important;
+	color: #fff !important;
+}
+.css-17c09up.Mui-selected {
+	background-color: #d90000 !important;
+}
+.css-17c09up:hover {
+	text-decoration: none;
+	background-color: #d70000 !important;
+}
 .listItem-border {
     transition: border-color .2s, background .2s;
 }
@@ -598,7 +657,7 @@ select {
     content: "";
     height: 2px;
     width: 0%;
-    background: rgb(0, 164, 220);
+    background: #d90000 !important;
     position: absolute;
     bottom: -35%;
     left: 50%;
@@ -606,9 +665,7 @@ select {
     transition: width .15s ease-in-out;
 }
 
-.emby-tab-button:hover .emby-button-foreground::after {
-    width: 120%;
-}
+
 
 body.force-scroll {
     display: flex;
@@ -698,7 +755,7 @@ div#itemBackdrop {
 
 .layout-mobile #itemDetailPage::after {
     content: "";
-    background: rgb(217, 0, 0) !improtant;
+    background: rgb(217, 0, 0) !important;
     position: fixed;
     width: 100%;
     height: 100%;
@@ -766,7 +823,9 @@ button.emby-tab-button.emby-button,
 h2 {
     text-shadow: 0 0 5px black;
 }
-
+.emby-tab-button-active {
+    color: #d90000 !important;
+}
 .tmla-mask {
     background-color: rgba(0, 0, 0, 0);
 }
@@ -817,7 +876,9 @@ h2 {
 .emby-tab-button {
     padding: 1.75em 1.7em;
 }
-
+.emby-tab-button:hover {
+	color: #d90000 !important;
+}
 
 /*Blur backdrops, feel free to edit the intensity of the filter values*/
 
@@ -1167,7 +1228,7 @@ h2 {
 }
 
 #nowPlayingPage {
-    background: rgb(217, 0, 0) !imnportant;
+    background: rgb(217, 0, 0) !important;
     background-size: 550%;
     -webkit-animation: gradient 10s cubic-bezier(0.5, 0, 0.5, 1) infinite;
     animation: gradient 10s cubic-bezier(0.5, 0, 0.5, 1) infinite;
@@ -1812,9 +1873,6 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
   }
 }
 
-.cardPadder {
-  background-color: #0000 !important; box-shadow: none !important;
-}
 
 /*Correct image aspect ratio behaviour, set border-radius to zero for square tiles*/
 
@@ -2245,4 +2303,72 @@ element {
 	left: 50%;
 	transform: translateX(-50%);
 	transition: width .15s ease-in-out;
+}
+
+::selection {
+	background: #d90000 !important;
+	text-shadow: none;
+}
+
+.mdl-slider::-moz-range-thumb {
+	appearance: none;
+	background: #d90000 !important;
+	background-image: none;
+	border: none;
+	border-radius: 50%;
+	box-sizing: border-box;
+	height: 1.08em;
+	-moz-transition: .2s;
+	transition: .2s;
+	width: 1.08em;
+}  
+
+.card:hover .cardBox, .card:focus .cardBox {
+	background: #d70000 !important;
+	box-shadow: 0 5px 9px black;
+}
+.emby-tab-button:hover {
+	color: #d90000 !important;
+}
+.emby-button-foreground::after {
+	content: "";
+	height: 2px;
+	width: 0%;
+	background: #d90000 !important;
+	position: absolute;
+	bottom: -35%;
+	left: 50%;
+	transform: translateX(-50%);
+	transition: width .15s ease-in-out;
+}
+
+.mainDrawer,
+.drawer-open {
+    background-color: #d90000 !important;
+}
+
+.navMenuOption:hover {
+    background: #d90000 !important;
+}
+
+.navMenuOption-selected {
+    background: #d90000 !important;
+    color: #fff;
+}
+
+.emby-button.show-focus:focus {
+    background: #d90000 !important;
+    color: #fff;
+}
+
+.emby-tab-button-active {
+    color: #d90000 !important;
+}
+
+.emby-tab-button.show-focus:focus {
+    color: #d90000 !important;
+}
+
+.emby-tab-button:hover {
+    color: #d90000 !important;
 }
