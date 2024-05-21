@@ -100,13 +100,42 @@ To use just copy this CSS file contents at the below link into Jellyfin ======> 
 
 or add this to your css
 
+v5
+
 `@import url("https://cdn.jsdelivr.net/gh/DevilsDesigns/Jellyfin-DarkFlix-Theme/Darkflix-v5.1.css");`
+
+v4
+
+`@import url("https://cdn.jsdelivr.net/gh/DevilsDesigns/Jellyfin-DarkFlix-Theme/v4/Jellyfin-Darkflix-v4.css");`
 
 </div>
 
 
 <div align="center">
-<h3 align="ceter" class="animations">What the UI Looks Like</h3><br>
+<h3 align="ceter" class="animations">What the UI Looks Like v4.1 (Latest)</h3><br>
+
+ <h3>Home Page UI v4</h3><br>
+
+ ![Home Page UI](https://github.com/DevilsDesigns/Jellyfin-DarkFlix-Theme/blob/latest/UI-Proof/v4(2024)/homepage.gif)
+
+ 
+ <h3> Admin Dashboard UI v4</h3><br>  
+ 
+ ![Admin Dashboard](https://github.com/DevilsDesigns/Jellyfin-DarkFlix-Theme/blob/latest/UI-Proof/v4(2024)/Admin-Menu.gif)
+ 
+ <h3> Media Pages v4</h3><br>  
+ 
+ ![Media Pages](https://github.com/DevilsDesigns/Jellyfin-DarkFlix-Theme/blob/latest/UI-Proof/v4(2024)/Media-Page-final.gif)
+ 
+ <h3>Video Player UI v4</h3><br>  
+ 
+ <img src="https://i.imgur.com/a/sPQJfpG.gif"/>
+ 
+ ![Video Player UI](https://github.com/DevilsDesigns/Jellyfin-DarkFlix-Theme/blob/latest/UI-Proof/v4(2024)/media-player-final-ezgif.com-resize.gif)
+ 
+
+<div align="center">
+<h3 align="ceter" class="animations">What the UI Looks Like v5</h3><br>
  
  
  <h3>Home Page UI v5</h3><br>
